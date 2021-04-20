@@ -20,10 +20,7 @@
               Data
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="index.php?hal=dataProduk">Produk</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="index.php?hal=dataPegawai">Data Pegawai</a>
             </div>
           </li>
           <?php
