@@ -1,6 +1,6 @@
 <?php
 /* Connect to a MySQL database using driver invocation */
-$dsn = 'mysql:dbname=dbbarang;host=localhost';
+$dsn = 'mysql:dbname=dbpegawai;host=localhost';
 $user = 'root';
 $password = '';
 

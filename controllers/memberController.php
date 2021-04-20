@@ -17,10 +17,10 @@ if(!empty($rs)){
     //simpan session
     $_SESSION['MEMBER'] = $rs;
     //landing page
-    header('Location:http://localhost:8080/appku/index.php?hal=dataProduk');    
+    header('Location:http://localhost/PWL/index.php?hal=dataProduk');    
 }
 else{
     //landing page
-    header('Location:http://localhost:8080/appku/index.php?hal=gagalLogin');
+    header('Location:http://localhost/PWL/index.php?hal=gagalLogin');
 }
 

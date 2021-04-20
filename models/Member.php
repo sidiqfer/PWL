@@ -11,7 +11,7 @@ class Member{
     //member3 method
     public function cekLogin($data){
         $sql = "SELECT * FROM member 
-                WHERE username = ? AND password = SHA1(MD5(?))";
+                WHERE username = ? AND password = MD5(?)";
         //prepare statement
         $ps = $this->koneksi->prepare($sql);
         $ps->execute($data);

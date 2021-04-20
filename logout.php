@@ -3,4 +3,4 @@ session_start();
 //session_destroy();
 unset($_SESSION['MEMBER']);
 //landing page
-header('Location:http://localhost:8080/appku/index.php?hal=home');    
+header('Location:http://localhost/PWL/index.php?hal=home');    
